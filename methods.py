@@ -8,6 +8,8 @@ def multiplyList(givenList):
         product = product * n
     return product
 
+##added comments
+
 def main():
     userInput = input("Input a list of numbers separated by spaces: ")
     userList = [int(x) for x in userInput.split()]
